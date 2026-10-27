@@ -66,5 +66,5 @@ MIT
 
 ## Author
 
-Your Name
-github.com/your-username
+Repana Ashok
+github.com/Ashok-Nani
