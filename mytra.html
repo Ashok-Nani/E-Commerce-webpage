@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitra — Home</title>
+    <link rel="stylesheet" type="text/css" href="upgrad1.css">
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #222; background: #f2f5fb; }
+        nav { text-align: center; padding: 14px 16px; font-size: 15px; background: rgba(255,255,255,0.85); border-bottom: 1px solid rgba(6,38,115,0.15); }
+        nav a { color: #062673; text-decoration: none; padding: 4px 8px; font-weight: 500; }
+        nav a:hover { text-decoration: underline; }
+        .hero {
+            min-height: 340px; display: flex; flex-direction: column; justify-content: center;
+            align-items: center; text-align: center; padding: 40px 20px; color: #fff;
+            background-image: linear-gradient(rgba(6,38,115,0.65), rgba(6,38,115,0.45)),
+                url("https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1600&q=80");
+            background-size: cover; background-position: center;
+        }
+        .hero h1 { font-size: 40px; letter-spacing: 2px; margin: 0 0 12px; }
+        .hero p { font-size: 18px; max-width: 620px; margin: 0 auto 24px; line-height: 1.5; }
+        .hero .cta { display: inline-block; background: #ff9900; color: #fff; text-decoration: none;
+            padding: 14px 32px; font-weight: 600; border-radius: 30px; }
+        .section { max-width: 1200px; margin: 40px auto; padding: 0 16px; }
+        .section-title { text-align: center; color: #062673; font-size: 26px; margin-bottom: 24px; }
+        .categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 18px; }
+        .category-card { position: relative; display: block; height: 200px; border-radius: 12px;
+            overflow: hidden; text-decoration: none; color: #fff; background-size: cover;
+            background-position: center; }
+        .category-card::after { content: ""; position: absolute; inset: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.65), rgba(0,0,0,0.05)); }
+        .category-card span { position: absolute; bottom: 14px; left: 0; right: 0;
+            text-align: center; font-size: 18px; font-weight: 700; z-index: 1; }
+        .cat-women { background-image: url("https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&q=80"); }
+        .cat-men   { background-image: url("https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?w=600&q=80"); }
+        .cat-kids  { background-image: url("https://images.unsplash.com/photo-1519689680058-324335c77eba?w=600&q=80"); }
+        .cat-shoes { background-image: url("https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"); }
+        .cat-acc   { background-image: url("https://images.unsplash.com/photo-1509941943102-10c232535736?w=600&q=80"); }
+        .promo { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; }
+        .promo-item { flex: 1 1 240px; background: #fff; border-radius: 12px; padding: 22px 18px;
+            text-align: center; border-top: 4px solid #ff9900; }
+        .promo-item .icon { font-size: 34px; margin-bottom: 8px; }
+        .promo-item h3 { color: #062673; font-size: 17px; margin: 0 0 6px; }
+        .promo-item p { font-size: 14px; color: #555; margin: 0; }
+        footer { background: #062673; color: #fff; text-align: center; padding: 24px 16px; margin-top: 40px; font-size: 14px; }
+        footer a { color: #ffcc66; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="mytra.html">Home</a> |
+        <a href="womenswear.html">Womens Wear</a> |
+        <a href="first html.html">Mens Wear</a> |
+        <a href="kidswear.html">Kids Wear</a> |
+        <a href="shoeswear.html">Shoes</a> |
+        <a href="accessories.html">Accessories</a>
+    </nav>
+
+    <header class="hero">
+        <h1>GET STARTED WITH MITRA</h1>
+        <p>Your one-stop shop for fashion and lifestyle. Discover top brands, fresh arrivals, and everyday essentials — all in one place.</p>
+        <a class="cta" href="womenswear.html">Shop Now</a>
+    </header>
+
+    <section class="section">
+        <h2 class="section-title">SHOP BY CATEGORY</h2>
+        <div class="categories">
+            <a class="category-card cat-women" href="womenswear.html"><span>Womens Wear</span></a>
+            <a class="category-card cat-men"   href="first html.html"><span>Mens Wear</span></a>
+            <a class="category-card cat-kids"  href="kidswear.html"><span>Kids Wear</span></a>
+            <a class="category-card cat-shoes" href="shoeswear.html"><span>Shoes</span></a>
+            <a class="category-card cat-acc"   href="accessories.html"><span>Accessories</span></a>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">WHY SHOP WITH MITRA?</h2>
+        <div class="promo">
+            <div class="promo-item"><div class="icon">🚚</div><h3>Free Delivery</h3><p>On all orders above ₹499</p></div>
+            <div class="promo-item"><div class="icon">↩️</div><h3>Easy Returns</h3><p>7-day hassle-free returns</p></div>
+            <div class="promo-item"><div class="icon">💳</div><h3>Secure Payments</h3><p>100% safe and encrypted</p></div>
+            <div class="promo-item"><div class="icon">⭐</div><h3>Trusted Brands</h3><p>Only verified sellers</p></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mitra. All rights reserved.</p>
+        <p>Follow us on <a href="https://www.youtube.com/">YouTube</a> · <a href="#">Instagram</a> · <a href="#">Facebook</a></p>
+    </footer>
+
+    <script src="shared.js"></script>
+</body>
+</html>
