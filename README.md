@@ -8,6 +8,7 @@ A static e-commerce website built with HTML, CSS, and vanilla JavaScript. Catego
 - Quantity selector (- / +), stops at 1
 - Responsive CSS Grid layout
 - Shared shared.js for search and quantity
+- Shared upgrad1.css for base styles
 - No frameworks, no build step, no npm
 
 ## Files
@@ -18,6 +19,7 @@ A static e-commerce website built with HTML, CSS, and vanilla JavaScript. Catego
 - kidswear.html — Kids Wear
 - accessories.html — Accessories
 - shared.js — Search + quantity logic
+- upgrad1.css — Base stylesheet
 
 ## Run
 
