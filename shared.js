@@ -1,11 +1,8 @@
-/* ============================================================
-   MITRA — shared.js
-   Search filter + quantity (− / +) on every card
-   ============================================================ */
+
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    /* ---------- 1. SEARCH ---------- */
+    
     const searchInput = document.getElementById("searchInput");
     const grid = document.querySelector(".grid-container");
     const noResults = document.getElementById("noResults");
@@ -31,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    /* ---------- 2. QUANTITY (− / +) ---------- */
+   
     document.querySelectorAll(".qty-box").forEach(function (box) {
         const minus = box.querySelector(".qty-minus");
         const plus = box.querySelector(".qty-plus");
