@@ -60,7 +60,7 @@ Copy any .box block inside .grid-container and change the image, price, and name
 
 ## Deploy to GitHub Pages
 
-Settings, Pages, Deploy from branch, main, root. Site goes live at https://username.github.io/repo/mytra.html
+Settings, Pages, Deploy from branch, main, root. Site goes live at https://Ashok-Nani.github.io/E-Commerce-webpage/mytra.html
 
 ## License
 
@@ -69,4 +69,5 @@ MIT
 ## Author
 
 Repana Ashok
+
 github.com/Ashok-Nani
